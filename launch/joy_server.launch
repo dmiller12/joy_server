@@ -25,7 +25,6 @@
 
 		<rosparam command="load" file="$(find husky_custom)/config/teleop_nav_controller.yaml" />
 		<node pkg="joy" type="joy_node" name="joy_node"/>
-		<node pkg="teleop_twist_joy" type="teleop_node" name="teleop_twist_joy" />
 	</group>
 
 	<include file="$(find bhand_mux)/launch/bhand_mux.launch" />

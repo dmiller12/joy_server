@@ -3,7 +3,7 @@ teleop:
     type: topic
     message_type: gripper_ros_common/VelocitySetpoint
     topic_name: bhand_vel
-    deadman_buttons: [6]
+    deadman_buttons: [5]
     axis_mappings:
       -
         axis: 0
